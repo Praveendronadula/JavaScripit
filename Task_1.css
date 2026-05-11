@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: burlywood;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background: white;
+}
+.navbar img{
+  width: 60px;   
+  height: 60px;  
+  border-radius: 50%;
+}
+.navbar h2{ 
+    padding: 20px 60px;
+     font-size: 30px;
+     font-weight: bold;
+     color: black;
+}
+
+.navbar ul {
+    display: flex;
+    padding: 20px 60px;
+    list-style: none;
+    font-size: 20px;
+    gap: 30px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: gray;
+    font-weight: 500;
+}
+
+/* main section */
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    background: rgb(255, 255, 255);
+    margin: 40px;
+    border-radius: 15px;
+}
+
+/* text_content */
+.content h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.content span {
+    color: rgb(156, 43, 226);
+}
+
+.content p {
+    margin-top: 15px;
+    color:gray;
+    line-height: 1.5;
+}
+.content img{
+  position: absolute;
+  top: 200px;
+  right: 160px;
+}
+
+/* input */
+.inputbox {
+    margin-top: 20px;
+}
+
+.inputbox input {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid wheat;
+    border-radius: 5px;
+}
+
+.inputbox button {
+    padding: 10px 15px;
+    border: none;
+    background: rgb(43, 226, 43);
+    color: white;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
