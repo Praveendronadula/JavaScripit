@@ -120,9 +120,41 @@
 
 // }   
 
-let a="JAVASCRIPIT"
-console.log(a.length);
-console.log(a.indexOf("S"));
-console.log(a.toUpperCase());
-console.log(a.toLowerCase());
-console.log(a.charAt(4));
+// console.log(x); //undefined
+// var x = 5;
+
+// console.log(x); // Error
+// let x = 5;
+
+coconsole.log(y); // ReferenceError
+const y = 5;
+
+var e =2;
+e =7;
+console.log(e)//allow reassign
+
+let f=3;
+f=6;
+console.log(f)//allow reassign
+
+// const g= 33;
+// g=4;
+// console.log(g); Error Not allowed reassign
+
+var a= 1
+var a=1
+console.log(a)//allow redeclare
+// let b= 1
+// let b=1
+// console.log(b)err
+// const c=1
+// const c= 1
+// console.log(c)
+var a = 1;
+var a = 2; //  pass
+
+// let b = 1;
+// let b = 2; //  error
+
+// const c = 1;
+// c = 2;     //  error
