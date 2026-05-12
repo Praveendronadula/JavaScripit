@@ -20,8 +20,12 @@
 // console.log(x);
 // fun_2();
 ////////////////////const////////////////
-const z=90;
-function fun_3(){
+const z = 90;
+function fun_3() {
     console.log(z);
+    const p = 3;
+    console.log(p);
 }
+// console.log(p);error
+console.log(z);
 fun_3()
