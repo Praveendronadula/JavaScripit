@@ -9,17 +9,7 @@ else if (mark>=50){
 else{
       console.log(  grade="C");
 }
-var a=99;
-while(a<100){
-    console.log(a);
-    a++;
-}
-let b=2;
-let c=3;
-do{
-    console.log(b,c);//2,3
-    b++;//3
-}while(b==c);3,3
+
 
 var marks = 90;
 switch (true) {
